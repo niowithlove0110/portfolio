@@ -1,11 +1,4 @@
-/*
- * Author: Carlos Alvarez
- * URL: http://alvarez.is
- *
- * Project Name: SPOT - Free Bootstrap 3 Theme
- * Version: 1.0
- * URL: http://blacktie.co
- */
+
  
 /* FONTS */
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
@@ -470,3 +463,122 @@ a.hyperbutton:hover{
     width: 200px;
     float: left;
 }
+
+================
+.one {
+    clear: both;
+    position: relative;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.standard_wrapper{
+    max-width: 1425px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0 90px;
+}
+
+.page_content_wrapper {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.page_content_wraper {
+    margin-top: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+.inner {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+.standard_wrapper .one_half{
+    margin-bottom: 0;
+}
+
+.one_half {
+    float: left;
+    width: 48%;
+    margin-right: 3.5%;
+    box-sizing: border-box;
+}
+
+.image_classic_frame {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 0;
+}
+
+.animate.visible {
+    animation-name: slideUp2;
+    -webkit-animation-name: slideUp2;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.image_wrapper {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+.portfolio_img {
+    max-width: 100%;
+}
+
+.one_half.last {
+    float: right;
+    width: 48%;
+    margin-right: 0;
+    clear: right;
+
+}
+
+.demo_screen_content {
+    margin-top: 120px;
+}
+
+.clear {
+    clear: both;
+}
+.image_classic_frame.expand.animate.visible {
+    animation-name: slideUp2;
+    -webkit-animation-name: slideUp2;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+
+
+
+
